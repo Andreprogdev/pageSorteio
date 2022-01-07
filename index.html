@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PÁGINA DE SORTEIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="./imagensPagSorteio/images.png"> 
+    
+</head>
+<body>
+    <div id="divpai">
+        <h1 id="titulo">PÁGINA DE SORTEIO</h1>
+        <input type="text" name="nomes" id="formulario" Placeholder= "NOME DOS PARTICIPANTES">
+        <button class="botao 1" onclick="salvarNomes()">ADICIONAR</button>
+        <button class="botao 2" onclick="sortearNomes()">SORTEAR</button>
+        <button class="botao 3" onclick="apagarTudo()">NOVO SORTEIO</button>
+        <h2 id="numeroSorteado"></h2>
+        <div id="divfilha">
+            <ul id="refletor"></ul>
+    </div>
+        
+    </div>
+</body>
+</html>

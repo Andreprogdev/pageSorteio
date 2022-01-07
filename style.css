@@ -1,0 +1,79 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to left,rgb(0, 83, 0), rgb(0, 61, 0) )
+}
+
+#divpai{
+    background-color: green;
+    margin-left: 40%;
+    margin-top: 10%;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    min-height: 400px ;
+    border-radius: 10px;
+    
+}
+
+#divfilha{
+    min-height: 200px;
+    max-width: 200px;
+    background-color: rgb(0, 156, 0);
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    color: black;
+    overflow: auto;
+    max-height: 500px;
+    
+    
+}
+
+#titulo{
+    text-align: center;
+}
+
+#formulario{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 13px;
+        
+}
+
+.botao{
+    background-color: chartreuse;
+    border-radius: 4px;
+    height: 50px;
+    font-size: 13px;
+    
+
+}
+
+.botao:hover{
+    background-color: wheat;
+}
+
+ul{
+    margin-left: 20px;
+}
+
+
+#numeroSorteado{
+    font-size: 100px;
+    text-align: center;
+}
+
